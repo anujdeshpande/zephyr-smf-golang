@@ -1,0 +1,21 @@
+zephyr-smf-golang
+Copyright 2026 Anuj Deshpande
+
+This is a Go port of the State Machine Framework of the Zephyr RTOS
+(https://github.com/zephyrproject-rtos/zephyr), release v4.4.2, which is
+licensed under the Apache License, Version 2.0:
+
+- lib/smf/smf.c and include/zephyr/smf.h
+  Copyright 2021 The Chromium OS Authors
+- tests/lib/smf
+  Copyright 2021 The Chromium OS Authors
+  Copyright 2024 Glenn Andrews
+  Copyright The Zephyr Project Contributors
+- samples/subsys/smf/hsm_psicc2 and samples/subsys/smf/smf_calculator
+  Copyright (c) 2023, 2024 Glenn Andrews
+
+The hsm_psicc2 sample implements the statechart in Figure 2.11 of Practical
+UML Statecharts in C/C++, 2nd Edition, by Miro Samek
+(https://www.state-machine.com/psicc2). State Machine example copyright (c)
+Miro Samek, used with permission of the author. The smf_calculator sample is
+based on the statechart in Fig 2.18 of the same book.
